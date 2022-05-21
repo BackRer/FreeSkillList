@@ -3,17 +3,17 @@ Skill:
   em:
     name: '恶魔'
     #有效时间
-    StartTime: "19:00:00"
-    LastTime: "19:00:01"
+    StartTime: "00:00:0。"
+    LastTime: "23:59:59"
     #固有的药水效果
     #药水效果列表
     EffectPostion:
-      - Speed
-      - FAST_DIGGING
+      - SPEED
+      - INCREASE_DAMAGE
     #药水效果等级
     EffectLevel:
       - 0
-      - 0
+      - 1
     #可控制的药水效果
     #药水效果列表
     EffectPostionSwith:
@@ -24,8 +24,8 @@ Skill:
   jl:
     name: '精灵'
     #有效时间
-    StartTime: "19:00:00"
-    LastTime: "19:00:01"
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
     #固有的药水效果
     #药水效果列表
     EffectPostion:
@@ -43,15 +43,335 @@ Skill:
   my:
     name: '梦魇'
     #有效时间
-    StartTime: "19:00:00"
-    LastTime: "19:00:01"
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
     #固有的药水效果
     #药水效果列表
     EffectPostion:
-      - Speed
+      - NIGHT_VISION
+    #药水效果等级
+    EffectLevel:
+      - 0
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+    #药水效果等级
+    EffecLevelSwith:
+  ry:
+    name: '人鱼'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - INCREASE_DAMAGE
+      - CONDUIT_POWER
+      - DOLPHINS_GRACE
     #药水效果等级
     EffectLevel:
       - 1
+      - 0
+      - 0
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+    #药水效果等级
+    EffecLevelSwith:
+  jy:
+    name: '鲸鱼'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - CONDUIT_POWER
+      - REGENERATION
+      - DOLPHINS_GRACE
+    #药水效果等级
+    EffectLevel:
+      - 0
+      - 0
+      - 0
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+    #药水效果等级
+    EffecLevelSwith:
+  mx:
+    name: '美西'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - CONDUIT_POWER
+      - DOLPHINS_GRACE
+    #药水效果等级
+    EffectLevel:
+      - 0
+      - 0
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+    #药水效果等级
+    EffecLevelSwith:
+  yh:
+    name: '幽魂'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - WATER_BREATHING
+      - BLINDNESS
+      - SLOW_DIGGING
+    #药水效果等级
+    EffectLevel:
+      - 0
+      - 0
+      - 1
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+    #药水效果等级
+    EffecLevelSwith:
+  lz:
+    name: '龙族'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - INCREASE_DAMAGE
+      - JUMP
+      - ABSORPTION
+      - REGENERATION
+    #药水效果等级
+    EffectLevel:
+      - 0
+      - 1
+      - 0
+      - 1
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+      - SLOW_FALLING
+    #药水效果等级
+    EffecLevelSwith:
+      - 0
+  ts:
+    name: '天使'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - JUMP
+    #药水效果等级
+    EffectLevel:
+      - 2
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+      - SLOW_FALLING
+    #药水效果等级
+    EffecLevelSwith:
+      - 0
+  mm:
+    name: '末影'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - INCREASE_DAMAGE
+    #药水效果等级
+    EffectLevel:
+      - 1
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+    #药水效果等级
+    EffecLevelSwith:
+  eh:
+    name: '恶魂'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - FIRE_RESISTANCE
+    #药水效果等级
+    EffectLevel:
+      - 1
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+    #药水效果等级
+    EffecLevelSwith:
+  xx:
+    name: '吸血'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - NIGHT_VISION
+      - SPEED
+    #药水效果等级
+    EffectLevel:
+      - 0
+      - 0
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+    #药水效果等级
+    EffecLevelSwith:
+  sr:
+    name: '塞壬'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - JUMP
+      - CONDUIT_POWER
+    #药水效果等级
+    EffectLevel:
+      - 2
+      - 0
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+      - SLOW_FALLING
+    #药水效果等级
+    EffecLevelSwith:
+      - 0
+  qy:
+    name: '潜影'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - ABSORPTION
+    #药水效果等级
+    EffectLevel:
+      - 0
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+      - LEVITATION
+    #药水效果等级
+    EffecLevelSwith:
+      - 0
+  yw:
+    name: '鹦鹉'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - JUMP
+      - LUCK
+    #药水效果等级
+    EffectLevel:
+      - 0
+      - 0
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+      - SLOW_FALLING
+    #药水效果等级
+    EffecLevelSwith:
+      - 0
+  hy:
+    name: '幻翼'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - NIGHT_VISION
+    #药水效果等级
+    EffectLevel:
+      - 0
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+      - INVISIBILITY
+    #药水效果等级
+    EffecLevelSwith:
+      - 0
+  dl:
+    name: '凋零'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - FIRE_RESISTANCE
+      - INCREASE_DAMAGE
+    #药水效果等级
+    EffectLevel:
+      - 1
+      - 0
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+    #药水效果等级
+    EffecLevelSwith:
+  ss:
+    name: '兽人'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - INCREASE_DAMAGE
+      - HUNGER
+      - SPEED
+      - JUMP
+    #药水效果等级
+    EffectLevel:
+      - 2
+      - 0
+      - 0
+      - 0
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+    #药水效果等级
+    EffecLevelSwith:
+  rl:
+    name: '人类'
+    #有效时间
+    StartTime: "00:00:00"
+    LastTime: "23:59:59"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - LUCK
+      - HERO_OF_THE_VILLAGE
+    #药水效果等级
+    EffectLevel:
+      - 0
+      - 0
     #可控制的药水效果
     #药水效果列表
     EffectPostionSwith:
