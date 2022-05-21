@@ -1,0 +1,59 @@
+Skill:
+  #种族名称,以名称首字母命名
+  em:
+    name: '恶魔'
+    #有效时间
+    StartTime: "19:00:00"
+    LastTime: "19:00:01"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - Speed
+      - FAST_DIGGING
+    #药水效果等级
+    EffectLevel:
+      - 0
+      - 0
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+      - SLOW_FALLING
+    #药水效果等级
+    EffecLevelSwith:
+      - 0
+  jl:
+    name: '精灵'
+    #有效时间
+    StartTime: "19:00:00"
+    LastTime: "19:00:01"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - FAST_DIGGING
+      - LUCK
+    #药水效果等级
+    EffectLevel:
+      - 0
+      - 1
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+    #药水效果等级
+    EffecLevelSwith:
+  my:
+    name: '梦魇'
+    #有效时间
+    StartTime: "19:00:00"
+    LastTime: "19:00:01"
+    #固有的药水效果
+    #药水效果列表
+    EffectPostion:
+      - Speed
+    #药水效果等级
+    EffectLevel:
+      - 1
+    #可控制的药水效果
+    #药水效果列表
+    EffectPostionSwith:
+    #药水效果等级
+    EffecLevelSwith:

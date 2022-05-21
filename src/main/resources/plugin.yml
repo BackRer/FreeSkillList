@@ -1,0 +1,10 @@
+name: FreeSkillList
+version: '${project.version}'
+main: me.freeskilllist.freeskilllist.FreeSkillList
+api-version: 1.17
+authors: [ BackRer ]
+description: This a Skill Plugins.
+website: love.backre.cn
+commands:
+  fsl:
+    description: This a main commands.It's BackRer Made.
